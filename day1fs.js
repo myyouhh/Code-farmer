@@ -35,3 +35,16 @@ alert('交换后b的值:' + b); */
 //isNan()函数用于检查其参数是否是非数字值,是返回false,否则返回true  NaN是非数字值
 /* console.log(isNaN(123)); //false
 console.log(isNaN('123')); //True */
+//检测字符串的长度:length
+/* var a = 'hello';
+console.log(a.length); *///5
+/* var a = prompt('请输入你的年龄:');
+alert('您今年' + a + '岁了'); */
+//typeof用来检测数据变量的类型
+// console.log(typeof a);//number
+//prompt取来的数据类型是字符型
+//把数字型转换成字符串型
+//var a = 10;
+//var  = num.toString();
+//console.log(String(num));
+//利用"+"拼接字符串也可以实现将数字型变成字符型 console.log(num + '')
