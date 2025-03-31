@@ -48,3 +48,24 @@ alert('您今年' + a + '岁了'); */
 //var  = num.toString();
 //console.log(String(num));
 //利用"+"拼接字符串也可以实现将数字型变成字符型 console.log(num + '')
+
+/*强制将字符串类型转为数字类型：
+var a =prompt('输入你的年龄：')
+这里得到的a为字符型的，有多种方法将字符串转化为数字类型
+parseInt：parseInt(a),但是只能转换为整数，还可以将像素单位px舍弃只保留数值，例如parseInt('120px')输出的就是120
+注意：parseInt后面的Int表示整数，如果改成Float就变成浮点数了
+
+number：number(a);
+
+隐式转换：用字符型加减乘除数字就会转换，顺序可以相反*/
+
+/*把其他类型转换成布尔型
+Boolean：Boolean()  括号中如果是代表空的无的例如：0 NaN null undefined 会被转换为false
+                               其余任何值都会转换为：true*/
+/*var a = prompt('请输入你的出生年份：');
+var b = 2025 - a;
+alert('你今年：' + b + '岁了');*/
+/*var a = prompt('第一个值是？');
+var b = prompt('第二个值是？');
+var c = Number(a) + Number(b);
+alert('结果为：' + c)*/
