@@ -88,3 +88,21 @@ alert('姓名：' + a + '\n年龄：' + b + '\n性别：' + c) */
 //    0 && 456中表达式1为假，则输出表达式2
 
 //||：和上面&&正好相反
+
+/* var a = prompt('输入年龄：')
+if(Number(a) >= 18){
+    alert('进去吧')
+}else if(Number(a) < 18){
+    alert('滚出去')
+} */
+
+/* var a = prompt('今夕是何年')
+if(a % 4 == 0 && a % 100 != 0){
+    alert('闰年')
+}else if(a % 400 == 0){
+    alert('闰年')
+}else{
+    alert('平年')
+} */
+var a = prompt('数字')
+alert(Number(a))
